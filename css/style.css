@@ -121,6 +121,18 @@ nav {
   margin-top: 104px;
   margin-left: 120px;
 }
+.box-1:hover .content-bottom {
+  color: #fff;
+}
+.box-2-svg {
+  fill: #00A0C1;
+}
+.box-1:hover svg{
+  fill: #fff;
+}
+.box-1 svg {
+  fill: #00A0C1;
+}
 .box-1 {
   display: flex;
   width: 328px;
@@ -153,9 +165,11 @@ nav {
   display: flex;
   gap: 30px;
   justify-content: center;
-  position: absolute;
-  bottom: -120px;
-  left: 200px;
+  position: sticky;
+  left: calc(18%);
+  top: 30%;
+  margin-top: 160px;
+  margin-left: 10px;
 }
 .box-1:hover {
   background: var(--secondary-color-1, #00a0c1);
@@ -641,7 +655,7 @@ letter-spacing: 0.2px;
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  gap: 60px;
+  gap: 63px;
   padding-bottom: 87px;
 }
 .footer-content {
