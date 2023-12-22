@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Indicorp-figma</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="./css/minifier.css"> -->
   </head>
   <body>
     <header>
@@ -15,7 +16,7 @@
           </div>
           <div class="nav-links">
             <a href="#" class="link1">Home</a>
-            <a href="#" class="link1">About</a>
+            <a href="#about" class="link1">About</a>
             <a href="#" class="link1">Advice</a>
             <a href="#" class="link1">Services</a>
             <a href="#" class="link1">Contact</a>
@@ -25,7 +26,7 @@
       <div class="banner">
         <div class="container">
           <div class="content">
-            <h3>
+            <h3 class="empower">
               EMPOWER <br />
               YOUR BUSINESS
             </h3>
@@ -99,7 +100,7 @@
       </div>
     </header>
     <main>
-      <div class="about">
+      <div class="about" id="about">
        <div class="container">
           <div class="top-about">
             <div class="about-title">ABOUT US</div>
@@ -321,9 +322,9 @@ simple way to plan their schedule.
               <form class="contact-form">
                 <input type="text" id="name" name="name" placeholder="Name">
                 <input type="email" id="name" name="name" placeholder="Email" required>
-                <input type="tel" id="name" name="name" placeholder="Phone number" required>
-                <input type="text" id="Comment" name="name" placeholder="Comment" required>
-                <select name="name" id="name" required>How did you find us?
+                <input type="number" id="number" name="name" placeholder="Phone number" required>
+                <textarea  type="text" id="comment" name="name" placeholder="Comment" required ></textarea>
+                <select name="name" id="name" required>
                   <option > How did you find us?</option>
                   <option value="">From news</option>
                   <option value="">From newspaper</option>
@@ -433,6 +434,6 @@ simple way to plan their schedule.
           <a href="https://youtobe.com" class="site-1"> <img src="./logos/carbon_logo-youtube.svg" alt="youtobe"></a>
         </div>
       </div>
-    </footer>
+    </footer> 
   </body>
 </html>
